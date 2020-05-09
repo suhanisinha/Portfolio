@@ -11,7 +11,7 @@ def index(request):
 			sender_name,
 			sender_message,
 			sender_email,
-			['suhanisinha2181998@gmail.com'],
+			['receiver email'],
 		)
 
 		return render(request, 'index.html', {'sender_name': sender_name})
